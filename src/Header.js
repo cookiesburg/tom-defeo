@@ -31,8 +31,12 @@ const About = styled.div`
   justify-content: center;
   align-items: center;
   color:white;
-  font-size: 25px;
+  font-size: 21px;
   letter-spacing: 4px;
+  :hover {
+    box-shadow: 1px 2px 1px black;
+    cursor: pointer;
+  }
 `;
 const Work = styled.div`
   margin: 10px;
@@ -43,8 +47,14 @@ const Work = styled.div`
   justify-content: center;
   align-items: center;
   color:white;
-  font-size: 25px;
+  font-size: 21px;
   letter-spacing: 4px;
+
+  :hover {
+    box-shadow: 1px 2px 1px black;
+    cursor: pointer;
+
+  }
 `;
 const Contact = styled.div`
   margin: 10px;
@@ -55,6 +65,10 @@ const Contact = styled.div`
   justify-content: center;
   align-items: center;
   color:white;
-  font-size: 25px;
+  font-size: 21px;
   letter-spacing: 4px;
+  :hover {
+    cursor: pointer;
+    box-shadow: 1px 2px 1px black;
+  }
 `;
