@@ -27,6 +27,7 @@ const Wrapper = styled.div`
     letter-spacing: 5px;
     font-size: 7rem;
     color: #7496D2;
+    color: black;
     font-weight: bold;
   }
   .sub-title{

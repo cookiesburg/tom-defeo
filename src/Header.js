@@ -5,9 +5,9 @@ class Header extends Component {
   render() {
     return (
       <Wrapper>
-        <About>about</About>
-        <Work>work</Work>
-        <Contact>contact</Contact>
+        <About>About</About>
+        <Work>Work</Work>
+        <Contact>Contact</Contact>
       </Wrapper>
     );
   }
@@ -17,7 +17,7 @@ export default Header;
 
 const Wrapper = styled.div`
 grid-row: 2 /span 1;
-grid-column: 5 / span 3;
+grid-column: 6 / span 3;
 display: flex;
 justify-content: around;
 `;
