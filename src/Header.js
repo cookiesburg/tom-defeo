@@ -5,16 +5,9 @@ class Header extends Component {
   render() {
     return (
       <Wrapper>
-        <div></div>
-        <div>
-          <p>home</p>
-        </div>
-        <div>
-          <p>home</p>
-        </div>
-        <div>
-          <p>home</p>
-        </div>
+        <About>about</About>
+        <Work>work</Work>
+        <Contact>contact</Contact>
       </Wrapper>
     );
   }
@@ -23,19 +16,45 @@ class Header extends Component {
 export default Header;
 
 const Wrapper = styled.div`
-  display: grid;
-  grid-template-columns: 70% 10% 10% 10%;
-  height: 150px;
-    div {
-      border: 1px solid black;
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
+grid-row: 2 /span 1;
+grid-column: 5 / span 3;
+display: flex;
+justify-content: around;
+`;
 
-      p {
-        color: pink;
-        padding: 10px;
-        border: 5px solid pink;
-      }
-    }
+const About = styled.div`
+  width: 28%;
+  border-radius: 50%;
+  background: #C7CEF6;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-size: 25px;
+  letter-spacing: 4px;
+`;
+const Work = styled.div`
+  margin: 10px;
+  width: 28%;
+  border-radius: 50%;
+  background: #B62A3D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-size: 25px;
+  letter-spacing: 4px;
+`;
+const Contact = styled.div`
+  margin: 10px;
+  width: 28%;
+  border-radius: 50%;
+  background: #EDCB64;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  font-size: 25px;
+  letter-spacing: 4px;
 `;
