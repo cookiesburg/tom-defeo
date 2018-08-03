@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
   render() {
     return (
       <Wrapper>
-        <About>About</About>
-        <Work>Work</Work>
+        <About>
+          <Link to='/about'>About</Link>
+        </About>
+        <Work className="wow bounceIn">Work</Work>
         <Contact>Contact</Contact>
       </Wrapper>
     );
