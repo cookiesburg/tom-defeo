@@ -7,7 +7,6 @@ const Body = () => {
       <div className='title'>TOM</div>
       <div className='title'>DEFEO</div>
       <div className='sub-title'>Web Developer</div>
-
     </Wrapper>
   );
 }
@@ -20,7 +19,6 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
   font-family: 'source sans Pro';
 
   .title {
@@ -29,6 +27,8 @@ const Wrapper = styled.div`
     color: #7496D2;
     color: white;
     font-weight: bold;
+    text-shadow: 1px 1px #7c7d7e;
+
   }
   .sub-title{
     letter-spacing: 5px;

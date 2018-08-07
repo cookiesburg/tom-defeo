@@ -29,8 +29,13 @@ display: flex;
 justify-content: around;
 
   .link {
+    box-shadow: 1px 1px 1px #7c7d7e;
+    max-width:150px;
+    min-width:150px;
+    max-height:150px;
+    min-height:150px;
+    border-radius: 50%;
     :hover {
-      box-shadow: 1px 2px 1px black;
       cursor: pointer;
     }
     a{
@@ -46,8 +51,6 @@ justify-content: around;
 `;
 
 const About = styled.div`
-  width: 28%;
-  border-radius: 50%;
   background: #C7CEF6;
   margin: 10px;
   display: flex;
@@ -59,8 +62,6 @@ const About = styled.div`
 `;
 const Work = styled.div`
   margin: 10px;
-  width: 28%;
-  border-radius: 50%;
   background: #B62A3D;
   display: flex;
   justify-content: center;
@@ -71,8 +72,6 @@ const Work = styled.div`
 `;
 const Contact = styled.div`
   margin: 10px;
-  width: 28%;
-  border-radius: 50%;
   background: #EDCB64;
   display: flex;
   justify-content: center;

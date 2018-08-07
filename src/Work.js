@@ -27,7 +27,7 @@ const Wrapper = styled.div`
     letter-spacing: 5px;
     font-size: 7rem;
     color: white;
-
+    text-shadow: 1px 1px #7c7d7e;
     font-weight: bold;
   }
   .body{
