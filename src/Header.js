@@ -6,11 +6,15 @@ class Header extends Component {
   render() {
     return (
       <Wrapper>
-        <About>
+        <About className='link'>
           <Link to='/about'>About</Link>
         </About>
-        <Work className="wow bounceIn">Work</Work>
-        <Contact>Contact</Contact>
+        <Work className='link'>
+          <Link to='/work'>Work</Link>
+        </Work>
+        <Contact className='link'>
+          <Link to='/'>Home</Link>
+        </Contact>
       </Wrapper>
     );
   }
@@ -23,6 +27,22 @@ grid-row: 2 /span 1;
 grid-column: 6 / span 3;
 display: flex;
 justify-content: around;
+
+  .link {
+    :hover {
+      box-shadow: 1px 2px 1px black;
+      cursor: pointer;
+    }
+    a{
+      text-shadow: 1px 1px #7c7d7e;
+      text-decoration: none;
+      color:white;
+      :visited{
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
 `;
 
 const About = styled.div`
@@ -36,10 +56,6 @@ const About = styled.div`
   color:white;
   font-size: 21px;
   letter-spacing: 4px;
-  :hover {
-    box-shadow: 1px 2px 1px black;
-    cursor: pointer;
-  }
 `;
 const Work = styled.div`
   margin: 10px;
@@ -52,12 +68,6 @@ const Work = styled.div`
   color:white;
   font-size: 21px;
   letter-spacing: 4px;
-
-  :hover {
-    box-shadow: 1px 2px 1px black;
-    cursor: pointer;
-
-  }
 `;
 const Contact = styled.div`
   margin: 10px;
@@ -70,8 +80,4 @@ const Contact = styled.div`
   color:white;
   font-size: 21px;
   letter-spacing: 4px;
-  :hover {
-    cursor: pointer;
-    box-shadow: 1px 2px 1px black;
-  }
 `;

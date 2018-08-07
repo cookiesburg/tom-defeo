@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Header';
 import Body from './Body';
 import About from './About';
+import Work from './Work';
 import {
   BrowserRouter as Router,
   Route,
@@ -18,7 +19,8 @@ class App extends Component {
           <Header />
           <Switch>
             <Route exact path='/' component={Body} />
-            <Route exact path='/about' component={About} />
+            <Route path='/about' component={About} />
+            <Route path='/work' component={Work} />
           </Switch>
         </div>
       </Router>
