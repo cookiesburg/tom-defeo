@@ -42,6 +42,8 @@ justify-content: around;
       text-shadow: 1px 1px #7c7d7e;
       text-decoration: none;
       color:white;
+      font-size: 25px;
+      letter-spacing: 4px;
       :visited{
         color: white;
         text-decoration: none;
@@ -57,8 +59,6 @@ const About = styled.div`
   justify-content: center;
   align-items: center;
   color:white;
-  font-size: 21px;
-  letter-spacing: 4px;
 `;
 const Work = styled.div`
   margin: 10px;
@@ -67,8 +67,6 @@ const Work = styled.div`
   justify-content: center;
   align-items: center;
   color:white;
-  font-size: 21px;
-  letter-spacing: 4px;
 `;
 const Contact = styled.div`
   margin: 10px;
@@ -77,6 +75,4 @@ const Contact = styled.div`
   justify-content: center;
   align-items: center;
   color:white;
-  font-size: 21px;
-  letter-spacing: 4px;
 `;
