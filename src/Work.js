@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import Slider from './Slider';
 
 const Work = () => {
   return(
@@ -7,7 +8,7 @@ const Work = () => {
       <div className='title'>
         work
       </div>
-
+      <Slider />
     </Wrapper>
   );
 }
