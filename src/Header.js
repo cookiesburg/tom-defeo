@@ -58,7 +58,6 @@ const About = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  color:white;
 `;
 const Work = styled.div`
   margin: 10px;
@@ -66,7 +65,6 @@ const Work = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  color:white;
 `;
 const Contact = styled.div`
   margin: 10px;
@@ -74,5 +72,4 @@ const Contact = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  color:white;
 `;
